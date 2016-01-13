@@ -44,5 +44,21 @@
 			<artifactId>maven-model</artifactId>
 			<version>3.2.5</version>
 		</dependency>
+		
+
+	<dependency>
+	    <groupId>fr.inria.gforge.spoon</groupId>
+	    <artifactId>spoon-core</artifactId>
+	    <version>4.4.1</version>
+	</dependency>
 	</dependencies>
+	
+<!-- 	<repositories> -->
+<!--     <repository> -->
+<!--         <id>gforge.inria.fr-snapshot</id> -->
+<!--         <name>Maven Repository for Spoon Snapshot</name> -->
+<!--         <url>http://spoon.gforge.inria.fr/repositories/snapshots/</url> -->
+<!--         <snapshots /> -->
+<!--     </repository> -->
+<!-- </repositories> -->
 </project>
