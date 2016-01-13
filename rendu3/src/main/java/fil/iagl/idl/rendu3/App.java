@@ -17,6 +17,30 @@ public class App {
 	private static final String INITIAL_PATH = "C:/workspace/IntroClassJava/dataset/smallest/1b31fa5c50f7725ce468ebf24282f2d080a83aed87e4ee35522ae7710c8e0136bc263cc460b8ec7bf2c3519cb59af4a138e114d36541515b2609ab56ad2b8ee9/003";
 	private static final String CURRENT_PATH = "C:/workspace/IntroClassJavaCpy/dataset/smallest/1b31fa5c50f7725ce468ebf24282f2d080a83aed87e4ee35522ae7710c8e0136bc263cc460b8ec7bf2c3519cb59af4a138e114d36541515b2609ab56ad2b8ee9/003";
 
+	// [------------------------ ASTOR ------------------------]
+	// -srcjavafolder
+	// C:\workspace\IntroClassJavaCpy\dataset\syllables\2af3c4163b40679ef94bbbbc863c4fa3785c6e164281f5e8850d9e4ffa387e5b162ceb37449ecca33961ff162d861c8d98ff702e723755b6c37c95d5cfaf1c40\003\src\main\java
+	// -srctestfolder
+	// C:\workspace\IntroClassJavaCpy\dataset\syllables\2af3c4163b40679ef94bbbbc863c4fa3785c6e164281f5e8850d9e4ffa387e5b162ceb37449ecca33961ff162d861c8d98ff702e723755b6c37c95d5cfaf1c40\003\src\test\java
+	// -binjavafolder target\classes
+	// -bintestfolder target\test-classes
+	// -failing introclassJava.syllables_2af3c416_003WhiteboxTest
+	// -dependencies examples/Lang-issue-428/lib/junit-4.7.jar
+	// -location
+	// C:\workspace\IntroClassJavaCpy\dataset\syllables\2af3c4163b40679ef94bbbbc863c4fa3785c6e164281f5e8850d9e4ffa387e5b162ceb37449ecca33961ff162d861c8d98ff702e723755b6c37c95d5cfaf1c40\003
+	// -package introclassJava
+
+	// [------------------------ NOPOL ------------------------]
+	// -m repair
+	// -e condition
+	// -y smt
+	// -o angelic
+	// -s
+	// C:\workspace\IntroClassJava\dataset\smallest\1b31fa5c50f7725ce468ebf24282f2d080a83aed87e4ee35522ae7710c8e0136bc263cc460b8ec7bf2c3519cb59af4a138e114d36541515b2609ab56ad2b8ee9\003\src\main\java;C:\workspace\IntroClassJava\dataset\smallest\1b31fa5c50f7725ce468ebf24282f2d080a83aed87e4ee35522ae7710c8e0136bc263cc460b8ec7bf2c3519cb59af4a138e114d36541515b2609ab56ad2b8ee9\003\src\test\java
+	// -c
+	// C:\workspace\IntroClassJava\dataset\smallest\1b31fa5c50f7725ce468ebf24282f2d080a83aed87e4ee35522ae7710c8e0136bc263cc460b8ec7bf2c3519cb59af4a138e114d36541515b2609ab56ad2b8ee9\003\target\classes;C:\workspace\IntroClassJava\dataset\smallest\1b31fa5c50f7725ce468ebf24282f2d080a83aed87e4ee35522ae7710c8e0136bc263cc460b8ec7bf2c3519cb59af4a138e114d36541515b2609ab56ad2b8ee9\003\target\test-classes;C:\Users\wokei\.m2\repository\junit\junit\4.11\junit-4.11.jar
+	// -p C:\workspace\z3-4.3.2-x64-win\bin\z3.exe
+
 	public static void main(String[] args) throws Exception {
 
 		Map<String, Resultat> result = new HashMap<>();
